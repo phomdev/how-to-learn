@@ -25,11 +25,13 @@
   top: 64px;
 }
 
+/* Общее лого */
 .logo {
   width: 228px;
   height: 32px;
 }
 
+/* Лого в шапке */
 .logo_place-header {
   position: absolute;
   z-index: 2;
@@ -125,6 +127,7 @@
   font-weight: 600;
 }
 
+/* Начало блока Digits */
 .digits {
   margin: 100px auto 100px auto;
   align-items: center;
@@ -160,6 +163,7 @@
   color: #FFF;
 }
 
+/* Для таблицы */
 .table {
   width: 1100px;
   margin: 0 auto;
@@ -192,6 +196,18 @@
   margin-bottom: 20px;
 }
 
+/* Модификатор под темный блок */
+.table_theme_dark {
+  margin: 0 auto 0 auto;
+}
+
+.table__cell_theme_dark {
+  margin: 80px 0 0 0;
+  width: 200px;
+  color: #FFF;
+}
+
+/* Начало блока Feynman */
 .feynman {
   height: 890px;
   background-color: #f2f2f2;
@@ -233,6 +249,7 @@
   font-weight: normal;
 }
 
+/* Начало блока Kaufman */
 .kaufman {
   background-color: #1f1f1f;
   padding: 90px 0 90px 0;
@@ -241,16 +258,6 @@
   align-items: center;
   position: relative;
   overflow: hidden;
-}
-
-.table_theme_dark {
-  margin: 0 auto 0 auto;
-}
-
-.table__cell_theme_dark {
-  margin: 80px 0 0 0;
-  width: 200px;
-  color: #FFF;
 }
 
 .kaufman__triangle{
@@ -263,6 +270,7 @@
   position: absolute;
 }
 
+/* Начало блока Footer */
 .footer {
   background-color: #1f1f1f;
   min-height: 350px;
@@ -293,12 +301,14 @@
   padding: 0;
 }
 
+/* Лого для подвала */
 .logo_place_footer {
   width: 228px;
   height: 32px;
   margin: 0;
 }
 
+/* Копирайт автора */
 .footer__author {
   margin: 18px 0 18px 0;
   line-height: 25px;
@@ -325,18 +335,19 @@
   color: white;
   font-weight: normal;
   line-height: 30px;
-  font-size: 18px;;
+  font-size: 18px;
   text-decoration: none;
 }
 
-.footer__column-link:nth-child(4){
+/* Псевдоклассом добавляем на 4  */
+.footer__column-link:nth-child(4) {
   margin-bottom: 16px;
 }
 
 .footer__column_content_social {}
 
 .footer__social-icon {
+  margin-right: 10px;
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
