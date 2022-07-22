@@ -47,7 +47,7 @@
   width: 100%;
   left: 64px;
   align-self: center;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   padding: 0;
   z-index: 2;
 }
