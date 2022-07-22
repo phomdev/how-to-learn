@@ -32,7 +32,7 @@
 }
 
 /* Лого в шапке */
-.logo_place-header {
+.logo_place_header {
   position: absolute;
   z-index: 2;
   top: 30px;
@@ -43,11 +43,11 @@
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
   left: 64px;
   align-self: center;
-  position: relative;
-  margin: 0;
+  margin-left: 64px;
   padding: 0;
   z-index: 2;
 }
@@ -59,7 +59,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   margin: 0;
   padding: 0;
   z-index: 2;
@@ -93,7 +94,8 @@
 }
 
 .two-columns__brief {
-  width: 175px;
+  max-width: 175px;
+  width: 100%;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -193,18 +195,17 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 /* Модификатор под темный блок */
 .table_theme_dark {
-  margin: 0 auto 0 auto;
+  color: #FFF;
 }
 
 .table__cell_theme_dark {
   margin: 80px 0 0 0;
   width: 200px;
-  color: #FFF;
 }
 
 /* Начало блока Feynman */
@@ -222,7 +223,8 @@
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   margin: 100px auto 0 auto;
   line-height: 1.15;
   font-size: 120px;
@@ -303,9 +305,7 @@
 
 /* Лого для подвала */
 .logo_place_footer {
-  width: 228px;
-  height: 32px;
-  margin: 0;
+  background-image: url('../images/logo_place_footer.svg');
 }
 
 /* Копирайт автора */
@@ -316,8 +316,6 @@
   font-weight: normal;
 }
 
-.footer__column_content_info {}
-
 .footer__column-heading {
   margin: 0 0 20px 0;
   line-height: 30px;
@@ -326,9 +324,11 @@
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
   display: flex;
   flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
 }
 
 .footer__column-link {
@@ -338,13 +338,6 @@
   font-size: 18px;
   text-decoration: none;
 }
-
-/* Псевдоклассом добавляем на 4  */
-.footer__column-link:nth-child(4) {
-  margin-bottom: 16px;
-}
-
-.footer__column_content_social {}
 
 .footer__social-icon {
   margin-right: 10px;
