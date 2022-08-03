@@ -1,0 +1,7 @@
+/* Общий блок для видео */
+.video__iframes {
+  display: flex;
+  margin-top: 50px;
+  font-size: 0;
+  padding: 0;
+}

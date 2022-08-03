@@ -1,0 +1,7 @@
+/* Изображение карточки */
+.cards__image {
+  max-width: 160px;
+  width: 100%;
+  border-radius: 50%;
+  margin: 0 40px;
+}

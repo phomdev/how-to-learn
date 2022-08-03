@@ -1,0 +1,11 @@
+/* Логотип */
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
+
+/* Логотип при наведении */
+.resources__logo:hover {
+  opacity: 60%;
+  transition: opacity 1s ease-in-out;
+}

@@ -1,0 +1,10 @@
+/* Карточка */
+.cards__item {
+  flex-direction: row;
+  margin: 60px 100px 0 0;
+  width: 240px;
+}
+/* Псевдокласс: каждый 3-й начиная с 3-го, убираем правый отступ */
+.cards__item:nth-of-type(3n+3) {
+  margin-right: 0;
+}

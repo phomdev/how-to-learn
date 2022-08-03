@@ -1,0 +1,7 @@
+/* Область логотипов */
+.resources__link {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
