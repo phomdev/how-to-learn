@@ -1,7 +1,10 @@
 /* Общий блок для видео */
 .video__iframes {
   display: flex;
-  margin-top: 50px;
+  margin: 0;
   font-size: 0;
   padding: 0;
+  column-gap: 20px;
+  transform: translateY(50px);
+  list-style-type: none;
 }

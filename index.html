@@ -10,7 +10,7 @@
   <div class="page">
     <!-- Шапка -->
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Тёмный логотип Яндекс Практикум">
+      <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link">Узнать &rarr;</a>
@@ -67,10 +67,10 @@
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li><iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe></li>
+          <li><iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe></li>
+        </ul>
       </section>
       <!-- Секция oakley -->
       <section class="oakley">
@@ -133,7 +133,7 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -195,12 +195,12 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <a href="#" class="resources__link"><img src="./images/logo/resources-arzamas.svg" class="resources__logo" alt="Логотип проекта Арзамас"></a>
-          <a href="#" class="resources__link"><img src="./images/logo/resources-n1.svg" class="resources__logo" alt="Логотип издания Н + 1"></a>
-          <a href="#" class="resources__link"><img src="./images/logo/resources-strelka.svg" class="resources__logo" alt="Логотип журнала Мтрелка"></a>
-          <a href="#" class="resources__link"><img src="./images/logo/resources-polka.svg" class="resources__logo" alt="Логотип проекта Полка"></a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="#" class="resources__link" target="_blank"><img src="./images/logo/resources-arzamas.svg" class="resources__logo" alt="Логотип проекта Арзамас"></a></li>
+          <li><a href="#" class="resources__link" target="_blank"><img src="./images/logo/resources-n1.svg" class="resources__logo" alt="Логотип издания Н + 1"></a></li>
+          <li><a href="#" class="resources__link" target="_blank"><img src="./images/logo/resources-strelka.svg" class="resources__logo" alt="Логотип журнала Стрелка"></a></li>
+          <li><a href="#" class="resources__link" target="_blank"><img src="./images/logo/resources-polka.svg" class="resources__logo" alt="Логотип проекта Полка"></a></li>
+        </ul>
       </section>
     </main>
     <!-- Подвал -->
@@ -224,9 +224,9 @@
           <h4 class="footer__column-heading">Соцсети</h4>
           <nav>
             <ul class="footer__column-links">
-              <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Логотип Фейсбук">Facebook</a></li>
-              <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип ВКонтакте">ВКонтакте</a></li>
-              <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Логотип Инстаграм">Instagram</a></li>
+              <li><a class="footer__column-link" href="#" target="_blank"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Логотип Фейсбук">Facebook</a></li>
+              <li><a class="footer__column-link" href="#" target="_blank"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип ВКонтакте">ВКонтакте</a></li>
+              <li><a class="footer__column-link" href="#" target="_blank"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Логотип Инстаграм">Instagram</a></li>
             </ul>
           </nav>
         </div>

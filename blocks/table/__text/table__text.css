@@ -4,3 +4,7 @@
   font-weight: normal;
   margin: 20px 0;
 }
+/* Убираем нижний отступ у последних элементов */
+.table__text:last-child {
+  margin-bottom: 0;
+}
